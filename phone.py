@@ -19,7 +19,7 @@ class Phone():
 			'P36': self.user_id,
 			'P34': self.password
 		}
-
+1
 	def make_url(self, web_title):
 		"""根据话机的基本信息创建要访问的话机页面的URL"""
 		url = "http://"+self.web_username+':'+self.web_password+'@'+self.ip+'/'+web_title+'.htm'
